@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin:  10px 0;
+}
+
+h2{
+    margin: 8px 0;
+}
+
+.buitenbox{
+    padding: 0 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    /*flex-basis: 200px;*/
+    max-width: 700px;
+    /*column-gap: 15px;*/
+}
+
+.blok{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+
+    width: 200px;
+    height: 150px;
+    padding: 25px;
+
+}
+
+.links{
+    color: green;
+    border: 2px solid green;
+    background-color: #f3fff3;
+}
+
+.midden{
+    color: royalblue;
+    border: 2px solid royalblue;
+    background-color: #edefff;
+}
+
+.rechts{
+    color: orangered;
+    border: 2px solid orangered;
+    background-color: #fff1ee;
+}
+
+#laatste{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: black;
+    border: 2px dotted #484848;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    max-width: 700px;
+    padding: 20px;
+}
+
+
+img{
+    width: 100%;
+}
+
+.wrapper{
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.icon{
+    width: 10px;
+    margin: 0 3px;
+}
+
+.button{
+    margin: 20px 0;
+    /*padding: ;*/
+    display: flex;
+    gap: 10px;
+}
+
+.button button{
+    padding: 2px 3px;
+}
